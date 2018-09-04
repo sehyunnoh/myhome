@@ -8,52 +8,20 @@ body {
   font-size: 17px;
 }
 
-
-.inner {
-  float: left;
-}
-
-.first {
-  width: 30%;
-}
-.second {
-  width: 27%;
-}
-.third {
-  width: 25%;
-}
-.fourth {
-  margin-top: 20px;
-}
-
 ul li a {
   line-height: 1.5;
   text-decoration: none;
 }
-a:link,
-a:visited {
+
+a:link,a:visited {
   color: blue;
 }
 a:hover {
   color: red;
 }
-.container img {
-  opacity: 0.3;
-  max-height: 650px;
-  /* margin-left : auto;
-    margin-right : auto;
-    display : block; */
-}
 
-.contents {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  padding: 0 20px;
-}
-.container {
-  position: relative;
-  /* background-color: rgb(193, 216, 233); */
+.box {
+  margin-top: 10px;
 }
 
 .button:active {
