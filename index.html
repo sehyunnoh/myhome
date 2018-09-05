@@ -14,7 +14,7 @@
 <body>
     <div class="container-fluid">
         <div class="row-fluid">
-            <div class="span3">
+            <div class="span3 sub">
                 <h3>English</h3>
                 <ul>
                     <li>LPG
@@ -195,20 +195,39 @@
             </div>
             <div class="span3">
                 <div class="box">
-                    <a href="./eric.PNG"><span class="btn btn-primary btn-block btn-large">Time Table</span></a>
+                    <a href="#myModal" role="button" class="btn btn-primary btn-block btn-large" data-toggle="modal">Time
+                        Table</a>
                     <br>
-                    <a href="https://sheridanc-my.sharepoint.com/:x:/r/personal/nohs_shernet_sheridancollege_ca/_layouts/15/Doc.aspx?sourcedoc=%7B3a66be0b-2697-420a-949a-f51a3631cdf0%7D&action=default&uid=%7B3A66BE0B-2697-420A-949A-F51A3631CDF0%7D&ListItemId=67&ListId=%7B1560E8AE-E26E-45C6-9DE8-CEE5F86A83D0%7D&odsp=1&env=prod">
-                        <span class="btn btn-success btn-block btn-large">Class Schedule</span></a>
+                    <a href="https://goo.gl/dnVPbV" role="button" class="btn btn-success btn-block btn-large"> Class Schedule
+                        </a>
                     <br>
-                    <a href="https://sheridanc-my.sharepoint.com/:x:/r/personal/nohs_shernet_sheridancollege_ca/_layouts/15/Doc.aspx?sourcedoc={94033a1d-3bcd-4bc2-a857-46d289d21544}&action=editnew">
-                        <span class="btn btn-warning btn-block btn-large">IELTS Listening</span>
-                    </a>
+                    <a href="https://goo.gl/rtffuv" role="button" class="btn btn-warning btn-block btn-large">IELTS Listening</a>
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- Modal -->
+    <div class="modal hide" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                ×
+            </button>
+            <h3 id="myModalLabel">Time Table</h3>
+        </div>
+        <div class="modal-body">
+            <img src="./eric.PNG" alt="eric's time table">
+        </div>
+        <div class="modal-footer">
+            <button class="btn" data-dismiss="modal" aria-hidden="true">
+                Close
+            </button>
+        </div>
+    </div>
+
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
 </body>
 
 </html>

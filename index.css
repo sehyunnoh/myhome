@@ -1,13 +1,16 @@
 ul li a {
   line-height: 1.5;
+}
+
+a {
   text-decoration: none;
 }
 
-a:link,a:visited {
+ul li a :link, ul li a :visited {
   color: blue;
 }
 
-a:hover {
+ul li a :hover {
   color: red;
 }
 
