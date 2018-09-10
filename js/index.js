@@ -1,9 +1,9 @@
 $.getJSON(
-  "http://www.apilayer.net/api/live?access_key=3edb78e07afd701d8a3ac5ef767744c5&currencies=KRW,CAD",
+  "https://openexchangerates.org/api/latest.json?app_id=b11b449e47fe4bb38a721619eccc7eab",
   function(result) {
     // 환율 정보
     var excRate =
-      Math.round((result.quotes.USDKRW / result.quotes.USDCAD) * 100) / 100;
+      Math.round((result.rates.KRW / result.rates.CAD) * 100) / 100;
 
     // update 날짜 갖고 오기
     var a = new Date(result.timestamp * 1000);
