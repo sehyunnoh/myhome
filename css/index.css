@@ -1,0 +1,24 @@
+ul li a {
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li a :link, ul li a :visited {
+  color: blue;
+}
+
+ul li a :hover {
+  color: red;
+}
+
+.box {
+  margin-top: 20px;
+}
+
+.excTr > td {
+  text-align: center;
+}
+
