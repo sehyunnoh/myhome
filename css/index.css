@@ -1,17 +1,19 @@
-ul li a {
-  line-height: 1.5;
+body {
+  padding : 0 20px;
 }
 
-a {
+ul li a {
+  line-height: 1.5;
   text-decoration: none;
 }
 
-ul li a :link, ul li a :visited {
+ul li a:link, ul li a:visited {
   color: blue;
 }
 
-ul li a :hover {
+ul li a:hover {
   color: red;
+  text-decoration: none;
 }
 
 .box {
