@@ -18,3 +18,8 @@ ul li a :hover {
   margin-top: 20px;
 }
 
+#grid {
+  display : grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
