@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>wordCnt</title>
+    <script src="https://code.jquery.com/jquery.js"></script>
+</head>
+
+<body>
+    <div style="width : 765px">
+        <textarea id="contents" rows="10" cols="100%"></textarea>
+        <div align="right"><span id="cnt" style="color:red"></span> Words</div>
+    </div>
+</body>
+
+<script>
+    $("#contents").on('keyup', function () {
+        $("#cnt").html($(this).val().trim().split(" ").length);
+    });
+</script>
+
+</html>
