@@ -1,0 +1,38 @@
+body {
+  padding : 0 20px;
+}
+
+ul li a {
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+ul li a:link, ul li a:visited {
+  color: blue;
+}
+
+ul li a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+#grid {
+  display : grid;
+  grid-template-columns: 3fr 1fr;
+  padding : 20px 0px;
+}
+
+.first {
+  padding-left: 30px;
+}
+
+.row {
+  padding-bottom : 5px;
+}
+
+@media(max-width:800px){
+  #grid {
+    display : block;
+  }
+}
+
