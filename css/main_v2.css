@@ -25,9 +25,9 @@ ul li a:hover {
 .first {
   top: 10x;
 }
-/* 처음에 row 로 해서 계속 margin-30px 먹었음. bootstrap 에 row class로 조건 걸려 있음. 그래서 class 명 바꿈 */
-.rowstyle {
-  padding-bottom : 5px; 
+
+.btn-group {
+  margin-bottom: 5px;
 }
 
 @media(max-width:800px){
