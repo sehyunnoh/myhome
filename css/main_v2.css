@@ -1,7 +1,3 @@
-body {
-  padding : 0 20px;
-}
-
 ul li a {
   line-height: 1.5;
   text-decoration: none;
@@ -19,15 +15,16 @@ ul li a:hover {
 #grid {
   display : grid;
   grid-template-columns: 3fr 1fr;
-  padding : 20px 0px;
+  padding : 20px;
 }
 
 .first {
-  padding-left: 30px;
+  background-color : yellow;
+  top: 10x;
 }
-
-.row {
-  padding-bottom : 5px;
+/* 처음에 row 로 해서 계속 margin-30px 먹었음. bootstrap 에 row class로 조건 걸려 있음. 그래서 class 명 바꿈 */
+.rowstyle {
+  padding-bottom : 5px; 
 }
 
 @media(max-width:800px){
