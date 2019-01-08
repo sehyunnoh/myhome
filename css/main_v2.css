@@ -33,6 +33,6 @@ ul li a:hover {
 @media(max-width:800px){
   #grid {
     display : block;
-  }
+  } 
 }
 
