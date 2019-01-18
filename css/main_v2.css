@@ -34,7 +34,7 @@ hr {
   margin-top : 10px !important;
   margin-bottom : 10px !important;
   border-top-color : black !important;
-  max-width: 446px !important;
+  max-width: 525px !important;
 }
 
 @media(max-width:800px){
