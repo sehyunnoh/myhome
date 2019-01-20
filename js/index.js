@@ -40,3 +40,9 @@ function pad(n, width) {
   n = n + "";
   return n.length >= width ? n : new Array(width - n.length + 1).join("0") + n;
 }
+
+// link 새창에서 열기
+var anchor = document.getElementsByTagName('a');
+for(var i=0; i < anchor.length; i++){
+  anchor[i].setAttribute('target','_blank');
+}
