@@ -1,4 +1,0 @@
-AuthUserFile ./.htpasswd
-AuthType Basic
-AuthName "nohs homepage"
-Require valid-user
