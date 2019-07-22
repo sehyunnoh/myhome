@@ -822,7 +822,7 @@
                         <li class="dropdown-submenu">
                             <a tabindex="-1" href="#" style="color:black">Win10</a>
                             <ul class="dropdown-menu">
-                                <li><a href="#winHotkey"  data-toggle="modal">hotkey</a></li>
+                                <li><a href="#win10Hotkey"  data-toggle="modal">hotkey</a></li>
                             </ul>
                         </li>
                         <li class="dropdown-submenu">
@@ -917,41 +917,17 @@
             </button>
         </div>
     </div>
-    <div class="modal hide" id="netbeanHotkey" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
-            </button>
-            <h3 id="myModalLabel">Netbeans hotkey</h3>
-        </div>
-        <div class="modal-body">
-            <ul>
-                <li><strong>auto import</strong> : ctrl + shift + i</li>
-                <li><strong>auto indent</strong> : shift + alt + f</li>
-                <li><strong>copy lines</strong> : ctrl + shif + down</li>
-                <li><strong>column editor</strong> : ctrl + shift + r</li>
-                <li><strong>run file</strong> : shift + f6</li>
-                <li><strong>debug file</strong> : ctrl + shift + f5</li>
-                <li><strong>insert code</strong> : alt + Insert</li>
-                <li><strong>find selection</strong> : ctrl + f3</li>
-                <li><strong>find next</strong> : f3</li>
-                <li><strong>find previous</strong> : shift + f3</li>
-                <li><strong>show only editor</strong> : ctrl + shift + enter</li>
-                <li><strong>go to file</strong> : alt + shift + o</li>
-                <li><strong>go to declaration</strong> : ctrl + b</li>
-                <li><strong>go to line</strong> : ctrl + g</li>
-                <li><strong>toggle bookmark</strong> : ctrl + shift + m</li>
-                <li><strong>argument 정보 보기</strong> : ctrl + p</li>
-            </ul>
-        </div>
-        <div class="modal-footer">
-            <button class="btn" data-dismiss="modal" aria-hidden="true">
-                Close
-            </button>
-        </div>
-    </div>
+    <div id="netbeanHotkeyLoc" ></div>
+    <div id="win10HotkeyLoc" ></div>
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/index.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('#netbeanHotkeyLoc').load("./modal/netbeanHotkeyLayout.html");
+            $('#win10HotkeyLoc').load("./modal/win10HotkeyLayout.html");
+        });
+    </script>
 </body>
 
 </html>

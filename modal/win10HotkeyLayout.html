@@ -1,0 +1,30 @@
+<div
+  class="modal hide"
+  id="win10Hotkey"
+  tabindex="-1"
+  role="dialog"
+  aria-labelledby="myModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-header">
+    <button
+      type="button"
+      class="close"
+      data-dismiss="modal"
+      aria-hidden="true"
+    ></button>
+    <h3 id="myModalLabel">Win 10 hotkey</h3>
+  </div>
+  <div class="modal-body">
+    <div id="win10HotkeyCon"></div>
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">
+      Close
+    </button>
+  </div>
+</div>
+
+<script>
+  $("#win10HotkeyCon").load("./modal/md/win10Hotkey.html");
+</script>
