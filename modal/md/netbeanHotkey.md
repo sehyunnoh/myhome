@@ -1,0 +1,16 @@
+-   **auto import** : ctrl + shift + i
+-   **auto indent** : shift + alt + f
+-   **copy lines** : ctrl + shif + down
+-   **column editor** : ctrl + shift + r
+-   **run file** : shift + f6
+-   **debug file** : ctrl + shift + f5
+-   **insert code** : alt + Insert
+-   **find selection** : ctrl + f3
+-   **find next** : f3
+-   **find previous** : shift + f3
+-   **show only editor** : ctrl + shift + enter
+-   **go to file** : alt + shift + o
+-   **go to declaration** : ctrl + b
+-   **go to line** : ctrl + g
+-   **toggle bookmark** : ctrl + shift + m
+-   **argument 정보 보기** : ctrl + p
