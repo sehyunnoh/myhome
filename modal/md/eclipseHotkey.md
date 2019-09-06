@@ -1,0 +1,29 @@
+- **ctrl + space** : 자동 채우기
+- **ctrl + d** : 한줄 삭제
+- **ctrl + shift + f** : 자동 들여쓰기 됨.
+- **ctrl + alt + 화살표** : 그대로 복사 (블록 지정해서 사용 해도 됨)
+- **shift + enter** : 커서 다음 줄로 이동
+- **ctrl + shift + /** : 블록으로 지정 한 후에 주석 처리
+- **ctrl + shift + \\** : 블록으로 지정 된 부분 주석 해제
+- **ctrl + 마우스 클릭**: 객체 링크 따라감.
+- **ctrl + shift + e** : editor 파일 바꾸기
+- **ctrl + shift + r** : 파일 불러오기
+- **ctrl + o** : class 안 함수 확인
+- **ctrl + alt + h** : 해당 함수 호출 하는 부분 확인
+- **alt + shift + r** : 변수명 한번에 바꾸기
+- **ctrl + f8** : perspective 변경(아래로)
+- **ctrl + shift + f8** : perspective 변경(위로)
+- **왼쪽 line 더블 클릭** : 북마크 설정
+- **ctrl + n** : 북마크 된 부분으로 이동
+- **ctrl + l** : 해당 LINE으로 이동
+- **alt + shift + a** : 열편집 모드
+- **ctrl + shift + y** : 대문자 -> 소문자
+- **ctrl + shift + x** : 소문자->  대문자
+- **ctrl + h** : 
+- **ctrl + shift + r** : 파일 이름으로 찾기~
+- **ctrl + 1** : 퀵 픽스
+- **ctrl + shift + l** : 모든 단축키 확인
+- **ctrl + m** : 전체 화면으로 키우기
+- **ctrl + f11** : 프로젝트 실행
+- **preferences -> key** : 단축키 변경 방법
+- **preferences -> line** : 라인 넘버 표시하기
