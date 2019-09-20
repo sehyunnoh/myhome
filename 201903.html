@@ -20,6 +20,11 @@
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
         gtag('config', 'UA-125569935-1');
+
+        if(sessionStorage.getItem("id") != 'sheridan'){
+            window.location.href = "index.html";
+        }
+
     </script>
 </head>
 

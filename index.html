@@ -45,6 +45,7 @@
             var pw = $('#inputPassword').val();
 
             if (id == 'sheridan' && pw == '123') {
+                sessionStorage.setItem("id","sheridan")
                 window.location.href = "201903.html";
             } else {
                 alert("login failed!");
