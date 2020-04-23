@@ -12,7 +12,6 @@
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'UA-125569935-1');
     </script>
 </head>
@@ -44,9 +43,9 @@
             var id = $('#inputId').val();
             var pw = $('#inputPassword').val();
 
-            if (id == 'sheridan' && pw == '123') {
+            if (id == 'q' && pw == '1') {
                 sessionStorage.setItem("id","sheridan")
-                window.location.href = "202001.html";
+                window.location.href = "202002.html";
             } else {
                 alert("login failed!");
             }
